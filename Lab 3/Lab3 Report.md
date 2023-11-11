@@ -23,10 +23,10 @@
     * Stream out Yn, the output rate depends on FIR processing speed.
 
 ### AXI4-Lite Read Transaction
-![image.png](https://hackmd.io/_uploads/H1K-lEM7T.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/d9192231-bc6e-4955-9019-3cfd4fe031de)
 
 ### AXI4-Lite Write Transaction
-![image.png](https://hackmd.io/_uploads/SyTzxNGQ6.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/b3a5e18c-8740-4460-9e45-69be8cf0c309)
 
 ### AXI4-Stream Transfer Protocol
 ![image.png](https://hackmd.io/_uploads/SkzEgEG7a.png)
