@@ -29,7 +29,7 @@
 ![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/b3a5e18c-8740-4460-9e45-69be8cf0c309)
 
 ### AXI4-Stream Transfer Protocol
-![image.png](https://hackmd.io/_uploads/SkzEgEG7a.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/1db95a32-c5a5-4695-95b0-11a1108e88f1)
 
 ### Configuration Register Address map
 **Address**
@@ -44,37 +44,37 @@
 * 0x20-FF – Tap parameters, (e.g., 0x20-23 Tap0, in sequence...)
 
 ### Host software / Testbench Programming Sequence
-![image.png](https://hackmd.io/_uploads/S1U0ZNzXa.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/bb0533e1-d512-406a-bd84-d9b2001f09a1)
 
 ## Block Diagram
 ### Datapath :
-![image](https://hackmd.io/_uploads/HkQDyMTX6.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/8979d438-cc42-46ab-9d19-c32e8a514eb9)
 
 ### Waveform :
-![image](https://hackmd.io/_uploads/r1hKkfpQT.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/6b508fb0-4fac-4ba2-9992-d897558a9f08)
 
 ## Simulation
 ### Write Transaction
-![image](https://hackmd.io/_uploads/Sk-UmGTQ6.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/c6ef13e7-6025-4451-9b08-ee9ee324429e)
 
 ### Read Transaction
-![image](https://hackmd.io/_uploads/SybPXGpXa.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/9b2378a2-5a97-4d39-9b76-443bc5198c32)
 
 ### Calculation
-![image](https://hackmd.io/_uploads/S194VM6Xp.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/ded3ecb4-7267-43cc-810f-8ad8375230a4)
 
 ### Last Data
-![image](https://hackmd.io/_uploads/Sy0ZBG67T.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/e16838b9-a9d8-4ab8-99ad-8b322562b915)
 
 ## Synthesis
 ### Slice logic
-![image](https://hackmd.io/_uploads/S1fU8z6mT.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/2d5c53f0-a212-4bb9-b7b9-e270307553d0)
 
 ### Bram
-![image](https://hackmd.io/_uploads/SysaLfama.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/eefe8a85-3815-4f9f-aad5-23bf8ae1137f)
 
 ### DSP
-![image](https://hackmd.io/_uploads/ry5JwGTQT.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/404dc7d9-9a3f-4ec3-88ae-b144e4ba479f)
 
 ## Timing Report
-![image](https://hackmd.io/_uploads/r1kk8f67p.png)
+![image](https://github.com/ShengdaChen1212/SOC-Lab/assets/97797875/e0450f33-9c3c-4f70-a7cd-4529743f54b6)
