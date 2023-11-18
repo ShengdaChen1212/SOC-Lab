@@ -60,28 +60,30 @@ module wb2axi #(
     wire                     fir_valid;
     wire                     fir_we;
     wire [(pADDR_WIDTH-1):0] fir_addr;
+    reg  [(pADDR_WIDTH-1):0] wbs_dat_o_reg;
 
    	//------global---------
    	assign fir_valid = wbs_stb_i & wbs_cyc_i;
    	assign fir_we    = wbs_we_i & wbs_cyc_i;
    	assign fir_addr  = wbs_adr_i[11:0];
    	assign wbs_ack_o = wready | rvalid | (ss_tvalid & ss_tready) | (sm_tvalid & sm_tready);
-   	
+    assign wbs_dat_o = wbs_dat_o_reg;
+    
    	// *****
    	// read data out
    	always @(*) begin
-        wbs_dat_o = 32'd0;
+        wbs_dat_o_reg = 32'd0;
         if (fir_addr == 12'h0) begin
-        	wbs_dat_o = { 27'd0, sm_tvalid, ss_tready, 1'b0, rdata[2:0]};	// X[n], Y[n]
+        	wbs_dat_o_reg = { 27'd0, sm_tvalid, ss_tready, 1'b0, rdata[2:0]};	// X[n], Y[n]
         end 
         else if ((fir_addr >= 12'h20) & (fir_addr <= 12'h48))  begin
-        	wbs_dat_o = rdata;
+        	wbs_dat_o_reg = rdata;
         end
         else if (fir_addr == 12'h84) begin
-        	wbs_dat_o = sm_tdata;
+        	wbs_dat_o_reg = sm_tdata;
         end
         else begin
-        	wbs_dat_o = rdata;
+        	wbs_dat_o_reg = rdata;
         end
     end
    	
