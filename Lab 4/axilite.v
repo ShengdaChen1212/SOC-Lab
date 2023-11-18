@@ -83,7 +83,7 @@ module axilite
 
 	// AXI-Lite Write / Read signal
 	assign awready = 1;
-    assign wready  = 1;
+	assign wready  = (wvalid == 1) ? 1'b1 : 1'b0;
 	assign arready = ((state == TAPE| state == CALC) & arvalid);
     assign rvalid  = rvalid_reg;
 	assign rdata  = rdata_reg;
